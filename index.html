@@ -8,10 +8,10 @@ layout: default
     {% for post in site.posts %}
       <li>
         <div class="post-header post-summary">
-          <a href="{{post.url}}"><h1>{{ post.title }}</h1></a>
-          <img src="{{ post.image }}" alt="" />
+          <a href="https://qwertyuiopcode.github.io/royalfork/{{post.url}}"><h1>{{ post.title }}</h1></a>
+          <img src="https://qwertyuiopcode.github.io/royalfork/{{ post.image }}" alt="" />
           {{ post.excerpt }}
-          <form action="{{ post.url }}#{{ post.first-anchor }}" method="get">
+          <form action="https://qwertyuiopcode.github.io/royalfork/{{ post.url }}#{{ post.first-anchor }}" method="get">
             <input type="submit" class="btn" value="Read More" />
           </form>
         </div>
